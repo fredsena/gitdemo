@@ -1,0 +1,49 @@
+usuariodell@MICRODELL D:\FRED\ESTUDO\GITDemo\gitdemo
+> git add git_intro.txt
+
+usuariodell@MICRODELL D:\FRED\ESTUDO\GITDemo\gitdemo
+> git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   git_intro.txt
+
+
+usuariodell@MICRODELL D:\FRED\ESTUDO\GITDemo\gitdemo
+> git commit -m "added file git_intro.txt"
+[master (root-commit) 9016a42] added file git_intro.txt
+ 1 file changed, 21 insertions(+)
+ create mode 100644 git_intro.txt
+
+usuariodell@MICRODELL D:\FRED\ESTUDO\GITDemo\gitdemo
+> git push origin
+fatal: AggregateException encountered.
+   Um ou mais erros.
+Username for 'https://github.com': fredsena
+Password for 'https://fredsena@github.com':
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 545 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/fredsena/gitdemo.git
+ * [new branch]      master -> master
+
+usuariodell@MICRODELL D:\FRED\ESTUDO\GITDemo\gitdemo
+> git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+
+usuariodell@MICRODELL D:\FRED\ESTUDO\GITDemo\gitdemo
+> git log
+commit 9016a421dcca0efd21c0a5ce30f40c2a5a2a8c7f
+Author: Fred Sena <sena.fred@gmail.com>
+Date:   Mon May 21 23:30:46 2018 +0100
+
+    added file git_intro.txt
