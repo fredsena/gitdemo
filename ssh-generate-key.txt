@@ -1,0 +1,35 @@
+
+#Open GitBash in:
+
+#C:\Users\usuariodell\.ssh
+
+
+# Generate Key filename. It has to be: id_rsa and the passphrase: empty (just hit enter)
+
+$ ssh-keygen -t rsa -C "sena.fred@gmail.com"
+
+
+#copy to clipboard
+
+$ cat id_rsa.pub | clip
+
+
+#go to Github.com e generate/paste the key: https://github.com/settings/keys
+
+
+#Enabling SSH connections over HTTPS:
+
+#edit the file at ~/.ssh/config, and add this section:
+
+
+Host github.com
+
+  Hostname ssh.github.com
+
+  Port 443
+
+
+#test connection
+
+$ ssh -vT git@github.com
+
