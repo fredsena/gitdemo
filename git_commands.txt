@@ -21,17 +21,6 @@ usuariodell@MICRODELL D:\FRED\ESTUDO\GITDemo\gitdemo
 
 usuariodell@MICRODELL D:\FRED\ESTUDO\GITDemo\gitdemo
 > git push origin
-fatal: AggregateException encountered.
-   Um ou mais erros.
-Username for 'https://github.com': fredsena
-Password for 'https://fredsena@github.com':
-Counting objects: 3, done.
-Delta compression using up to 8 threads.
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 545 bytes | 0 bytes/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/fredsena/gitdemo.git
- * [new branch]      master -> master
 
 usuariodell@MICRODELL D:\FRED\ESTUDO\GITDemo\gitdemo
 > git status
